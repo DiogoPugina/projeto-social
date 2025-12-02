@@ -16,9 +16,13 @@
             width: 100vw;         
         }
 
+        img>github {
+            width: 100vw;
+        }
+
         a {
             display: block;
-            background-color: red;
+            background-color: darkred;
             color: white;
             padding: 20px;
             text-align: center;
@@ -27,6 +31,7 @@
             
         }
 
-        :hover {
-            background-color: rgb(214, 9, 9);
+        a:hover {
+            background-color: red;
+            transition: background-color 0.1s;
         }
